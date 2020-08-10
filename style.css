@@ -7,11 +7,10 @@ body{
         width: 80% !important;
         position: relative;
         margin-left: 0px !important;
-        
     }    
 }
 .countdown-container{
-    margin-top: 20px;
+    margin: 0px auto;
     padding: 16px;
     width: 30%;
     position: relative;
@@ -20,25 +19,18 @@ body{
     background: #525b60;
     box-shadow:  30px 30px 60px #3c4246, 
              -30px -30px 60px #68747a;
+    text-align: center;
+    top: 200px;
 }
 #boomRoom{
     display: none;
 }
 #countdown-timer{
-    padding: 20px;
     font-size: 70px;
-}
-.countdown-container{
-    margin: 0px auto;
-    width: 30%;
-    text-align: center;
-    position: relative;
-    top: 200px;
 }
 
 #boomRoom{
     font-size: 50px;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 h1{
     font-size: 40px;
