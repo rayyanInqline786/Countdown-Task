@@ -1,4 +1,5 @@
 // Time remaining before class
+// Reviewed by Mustufa
 var remTimeC1 = new Date().getTime()+12000
 var remTimeC2 = new Date().getTime()+18000
 $(document).ready(function(){
