@@ -1,6 +1,6 @@
 // Time remaining before class
 // Branch Test
-var remTimeC1 = new Date().getTime()+12000
+var remTimeC1 = new Date().getTime()+20000
 var remTimeC2 = new Date().getTime()+18000
 $(document).ready(function(){
     $('#countdown').countdown(`${remTimeC1}`,{elapse:true})
